@@ -1,0 +1,38 @@
+{
+  "name": "@chainplatform/colorpicker",
+  "version": "0.1.0",
+  "description": "@chainplatform/colorpicker is a React Native library implement for react-native and react-native-web support select color.",
+  "main": "index.js",
+  "devDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-web": "*",
+    "react-native-webview": "*",
+    "@chainplatform/react-native-web-webview": "*"
+  },
+  "author": "Chain Platform <santran686@gmail.com> (https://chainplatform.net/)",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-native-web",
+    "@chainplatform/colorpicker",
+    "react-native-color-picker",
+    "react-native-webview",
+    "@chainplatform/react-native-web-webview"
+  ],
+  "homepage": "https://github.com/ChainPlatform/react-native-color-picker",
+  "bugs": "https://github.com/ChainPlatform/react-native-color-picker/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ChainPlatform/react-native-color-picker.git"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-web": "*",
+    "react-native-webview": "*",
+    "@chainplatform/react-native-web-webview": "*"
+  }
+}
