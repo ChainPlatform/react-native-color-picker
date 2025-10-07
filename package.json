@@ -1,6 +1,6 @@
 {
   "name": "@chainplatform/colorpicker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "@chainplatform/colorpicker is a React Native library implement for react-native and react-native-web support select color.",
   "main": "index.js",
   "devDependencies": {
