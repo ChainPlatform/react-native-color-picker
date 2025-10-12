@@ -20,25 +20,8 @@ export function formHTML(default_color = "", style = "", key_color = "", key_the
             </style>
             </head>
             <body>
-                <input type="color" id="color" rgba cmyk hsla alpha name="color" style='${style}' value='' onchange="getColor(this)" />
+                <input type="color" id="color" name="color" style='${style}' value='${default_color}' onchange="getColor(this)" />
                 <script>
-                    const parseRGBA = (color) => {
-                        if (!color) return null;
-                        const normalized = color
-                            .replace(/,/g, ' ')
-                            .replace(/\//, ' ')
-                            .replace(/rgba?|\(|\)|%/g, '')
-                            .trim();
-                        const parts = normalized.split(/\s+/).map(Number);
-                        const [r, g, b, a = 1] = parts;
-                        return { r, g, b, a };
-                    };
-                    const { r, g, b, a } = parseRGBA(default_color);
-                    default_color = 'rgb(${r}, ${g}, ${b})';
-                    const alpha = a;
-                    input.value = default_color;
-                    console.log(default_color, alpha);
-
                     function getColor(input) {
                         var color = input.value;
                         if ('${default_color}' != color) {
