@@ -17,6 +17,18 @@ export function formHTML(default_color = "", style = "", key_color = "", key_the
                     -webkit-font-smoothing: antialiased;
                     margin: 0px;
               }
+            #color {
+                -webkit-appearance: none;
+                padding: 0;
+            }
+            #color::-webkit-color-swatch {
+                border-radius: 50%;
+                padding: 0;
+            }
+            #color::-webkit-color-swatch-wrapper {
+                border-radius: 50%;
+                padding: 0;
+            }
             </style>
             </head>
             <body>
